@@ -46,10 +46,12 @@
             textBox1 = new TextBox();
             button16 = new Button();
             button17 = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // button1
             // 
+            button1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button1.Location = new Point(98, 297);
             button1.Name = "button1";
             button1.Size = new Size(65, 61);
@@ -60,6 +62,7 @@
             // 
             // button2
             // 
+            button2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button2.Location = new Point(27, 230);
             button2.Name = "button2";
             button2.Size = new Size(65, 61);
@@ -70,6 +73,7 @@
             // 
             // button3
             // 
+            button3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button3.Location = new Point(98, 230);
             button3.Name = "button3";
             button3.Size = new Size(65, 61);
@@ -80,6 +84,7 @@
             // 
             // button4
             // 
+            button4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button4.Location = new Point(169, 230);
             button4.Name = "button4";
             button4.Size = new Size(65, 61);
@@ -90,6 +95,7 @@
             // 
             // button5
             // 
+            button5.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button5.Location = new Point(27, 163);
             button5.Name = "button5";
             button5.Size = new Size(65, 61);
@@ -100,6 +106,7 @@
             // 
             // button6
             // 
+            button6.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button6.Location = new Point(98, 163);
             button6.Name = "button6";
             button6.Size = new Size(65, 61);
@@ -110,6 +117,7 @@
             // 
             // button7
             // 
+            button7.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button7.Location = new Point(169, 163);
             button7.Name = "button7";
             button7.Size = new Size(65, 61);
@@ -120,6 +128,7 @@
             // 
             // button8
             // 
+            button8.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button8.Location = new Point(27, 96);
             button8.Name = "button8";
             button8.Size = new Size(65, 61);
@@ -130,6 +139,7 @@
             // 
             // button9
             // 
+            button9.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button9.Location = new Point(98, 96);
             button9.Name = "button9";
             button9.Size = new Size(65, 61);
@@ -140,6 +150,7 @@
             // 
             // button10
             // 
+            button10.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button10.Location = new Point(169, 96);
             button10.Name = "button10";
             button10.Size = new Size(65, 61);
@@ -150,6 +161,7 @@
             // 
             // button11
             // 
+            button11.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
             button11.Location = new Point(169, 297);
             button11.Name = "button11";
             button11.Size = new Size(65, 61);
@@ -160,46 +172,59 @@
             // 
             // button12
             // 
+            button12.BackColor = SystemColors.InactiveCaption;
+            button12.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button12.ForeColor = SystemColors.ControlText;
             button12.Location = new Point(240, 96);
             button12.Name = "button12";
             button12.Size = new Size(65, 61);
             button12.TabIndex = 11;
             button12.Text = "+";
-            button12.UseVisualStyleBackColor = true;
+            button12.UseVisualStyleBackColor = false;
             button12.Click += button12_Click;
             // 
             // button13
             // 
+            button13.BackColor = SystemColors.InactiveCaption;
+            button13.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button13.ForeColor = SystemColors.ControlText;
             button13.Location = new Point(240, 163);
             button13.Name = "button13";
             button13.Size = new Size(65, 61);
             button13.TabIndex = 12;
             button13.Text = "-";
-            button13.UseVisualStyleBackColor = true;
+            button13.UseVisualStyleBackColor = false;
             button13.Click += button13_Click;
             // 
             // button14
             // 
+            button14.BackColor = SystemColors.InactiveCaption;
+            button14.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button14.ForeColor = SystemColors.ControlText;
             button14.Location = new Point(240, 230);
             button14.Name = "button14";
             button14.Size = new Size(65, 61);
             button14.TabIndex = 13;
             button14.Text = "x";
-            button14.UseVisualStyleBackColor = true;
+            button14.UseVisualStyleBackColor = false;
             button14.Click += button14_Click;
             // 
             // button15
             // 
+            button15.BackColor = SystemColors.InactiveCaption;
+            button15.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button15.ForeColor = SystemColors.ControlText;
             button15.Location = new Point(240, 297);
             button15.Name = "button15";
             button15.Size = new Size(65, 61);
             button15.TabIndex = 14;
             button15.Text = "/";
-            button15.UseVisualStyleBackColor = true;
+            button15.UseVisualStyleBackColor = false;
             button15.Click += button15_Click;
             // 
             // textBox1
             // 
+            textBox1.BackColor = SystemColors.Menu;
             textBox1.Location = new Point(27, 28);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
@@ -209,16 +234,19 @@
             // 
             // button16
             // 
+            button16.BackColor = Color.FromArgb(255, 128, 128);
+            button16.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             button16.Location = new Point(240, 28);
             button16.Name = "button16";
             button16.Size = new Size(65, 61);
             button16.TabIndex = 16;
             button16.Text = "C";
-            button16.UseVisualStyleBackColor = true;
+            button16.UseVisualStyleBackColor = false;
             button16.Click += button16_Click;
             // 
             // button17
             // 
+            button17.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             button17.Location = new Point(27, 297);
             button17.Name = "button17";
             button17.Size = new Size(65, 61);
@@ -227,11 +255,25 @@
             button17.UseVisualStyleBackColor = true;
             button17.Click += button17_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Bahnschrift Condensed", 48F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(98, 362);
+            label1.Name = "label1";
+            label1.Size = new Size(152, 77);
+            label1.TabIndex = 18;
+            label1.Text = "CASIO";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            label1.Click += label1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(326, 377);
+            BackColor = SystemColors.ControlDarkDark;
+            ClientSize = new Size(326, 448);
+            Controls.Add(label1);
             Controls.Add(button17);
             Controls.Add(button16);
             Controls.Add(textBox1);
@@ -277,5 +319,6 @@
         private TextBox textBox1;
         private Button button16;
         private Button button17;
+        private Label label1;
     }
 }
